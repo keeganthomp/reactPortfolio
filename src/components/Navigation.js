@@ -8,7 +8,7 @@ const Navbar = function() {
       fontFamily: "Poiret One",
       margin: 10,
       textDecoration: "none",
-      color: "black",
+      color: "white",
       textTransform: "uppercase",
       ":hover": {
         color: "blue"

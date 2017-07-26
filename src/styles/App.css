@@ -22,3 +22,14 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.projectImg {
+  transition: all .5s;
+  margin: 10px
+}
+
+.projectImg:hover {
+  box-shadow: 10px 10px 5px #fff;
+  transition: all .5s;
+  cursor: pointer
+}
