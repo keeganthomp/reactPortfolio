@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "./Navigation";
 
-export default class Contact extends Component {
+export default class Portfolio extends Component {
   render() {
     let header = {
       color: "black",
@@ -14,8 +14,8 @@ export default class Contact extends Component {
 
     return (
       <div style={center}>
-        <Navigation />
-        <div style={header}>The Contact Page</div>
+        <Navigation  />
+        <div style={header}>The Portfolio</div>
       </div>
     );
   }
