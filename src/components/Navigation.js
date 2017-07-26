@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import Radium from "radium";
 
 const Navbar = function() {
-
   let styles = {
     navLinks: {
+      fontFamily: "Poiret One",
       margin: 10,
       textDecoration: "none",
       color: "black",
       textTransform: "uppercase",
-      ':hover': {
+      ":hover": {
         color: "blue"
       }
     }

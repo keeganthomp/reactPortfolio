@@ -9,6 +9,7 @@ const BaseLayout = () => {
   };
 
   let header = {
+    fontFamily: 'Poiret One',
     color: "black",
     fontSize: 100,
     ':hover': {

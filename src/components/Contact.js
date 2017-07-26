@@ -4,7 +4,8 @@ import Navigation from "./Navigation";
 const Contact = () => {
   let header = {
     color: "black",
-    fontSize: 100
+    fontSize: 100,
+    fontFamily: "Poiret One"
   };
 
   let center = {
@@ -20,4 +21,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

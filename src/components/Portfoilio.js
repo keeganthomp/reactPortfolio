@@ -4,7 +4,8 @@ import Navigation from "./Navigation";
 const Portfolio = () => {
   let header = {
     color: "black",
-    fontSize: 100
+    fontSize: 100,
+    fontFamily: "Poiret One"
   };
 
   let center = {
