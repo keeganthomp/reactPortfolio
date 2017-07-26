@@ -1,26 +1,27 @@
-import React, { Component } from "react";
+import React from "react";
 import Navigation from "./Navigation";
 import "../styles/App.css";
+import Radium from 'radium';
 
-class BaseLayout extends Component {
-  render() {
+const BaseLayout = () => {
+  let center = {
+    textAlign: "center"
+  };
 
-    let center = {
-        textAlign: "center"
+  let header = {
+    color: "black",
+    fontSize: 100,
+    ':hover': {
+        color: "pink"
     }
+  };
 
-    let header = {
-      color: "black",
-      fontSize: 100
-    };
+  return (
+    <div style={center}>
+      <Navigation />
+      <div style={header}>Keegan Thompson</div>
+    </div>
+  );
+};
 
-    return (
-      <div style={center}>
-        <Navigation />
-        <div style={header}>Keegan Thompson</div>
-      </div>
-    );
-  }
-}
-
-export default BaseLayout;
+export default Radium(BaseLayout);
